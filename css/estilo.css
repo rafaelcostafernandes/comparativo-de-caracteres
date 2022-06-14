@@ -1,0 +1,65 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #1D232A;
+    color: #f3eaea;
+    }
+
+.titulo__principal {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    align-items: center;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+.caixa__principal {
+    display: flex;
+    justify-content: center; 
+}    
+
+.caixa__1 {
+    color: #6a6868;
+    font: 25px;
+    background: #FFFFFF;
+    margin: 10px;
+    padding: 4px 6px;
+    border-radius: 2px;
+}
+
+.caixa__2 {
+    color: #A7A7A7;
+    font: 25px;
+    background: #FFFFFF;
+    margin: 10px;
+    padding: 4px 6px;
+    border-radius: 2px;
+}
+
+.botao__principal {
+    text-align: center;
+}
+
+.botao {
+    font-size: 2rem;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    padding: .5em 3em;
+    color: #050505;
+    text-decoration: none;
+    margin-bottom: 1em;  
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 391px) {
+    .titulo__principal {
+        font-size: 1em;
+    }
+}
